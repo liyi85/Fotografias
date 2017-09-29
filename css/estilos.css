@@ -1,0 +1,40 @@
+@font-face
+{
+  font-family: 'DancingScript';
+  src: url('DancingScriptOT.otf');
+}
+
+body
+{
+  font-family: 'DancingScript';
+  background-color:  #02010a;
+}
+header
+{
+  height: 80px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+}
+ul
+{
+  list-style-type: none;
+}
+li
+{
+  display: inline-block;
+}
+
+#titulo
+{
+  width: 80%;
+  float: left;
+  color: #FFFFFF;
+}
+#menu
+{
+  width: 20%;
+  float: right;
+  color: #FFFFFF;
+  margin-top: 10px;
+
+}
