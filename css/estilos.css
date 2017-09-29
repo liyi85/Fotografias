@@ -107,7 +107,11 @@ footer
   display: block;
   margin: auto;
   width: 90%;
-  box-shadow: 2px 2px #02010a;
+  border: 1px solid black;
+}
+.imagen1:hover
+{
+  box-shadow: 2px 2px 2px 2px #82c3a6;
 }
 .segundo {
     display: -webkit-flex;
