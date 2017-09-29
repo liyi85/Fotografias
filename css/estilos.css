@@ -14,6 +14,8 @@ header
   height: 80px;
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
+  animation-name: animacionC;
+  animation-duration: 1s;
 }
 ul
 {
@@ -82,6 +84,10 @@ footer
 #imgTrasladar:hover
 {
   transform: translate(20px, -5px);
+}
+.cabecera
+{
+
 }
 .item-menu
 {
@@ -166,4 +172,60 @@ footer
   margin: auto;
   width: 90%;
   box-shadow: 2px 2px #02010a;
+}
+
+@keyframes animacionC {
+    0%   {margin-top: 150%;}
+    60%  {margin-top: -5%;}
+    100% {margin-top: 0%;}
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+  #contenido
+  {
+    width: 700px;
+    margin: auto;
+  }
+
+  #titulo
+  {
+    width: 70%;
+    float: left;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #02010a;
+  }
+  #menu
+  {
+    width: 30%;
+    float: right;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+
+}
+
+@media screen (max-width: 690px) and (min-width: 500px){
+
+  #contenido
+  {
+    width: 500px;
+    margin: auto;
+  }
+
+  #titulo
+  {
+    width: 70%;
+    float: left;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #02010a;
+  }
+  #menu
+  {
+    width: 30%;
+    float: right;
+    color: #FFFFFF;
+    margin-top: 10px;
+  }
+
 }
