@@ -23,6 +23,15 @@ li
 {
   display: inline-block;
 }
+a
+{
+  color: #FFFFFF;
+}
+#contenido
+{
+  width: 900px;
+  margin: auto;
+}
 
 #titulo
 {
@@ -36,5 +45,28 @@ li
   float: right;
   color: #FFFFFF;
   margin-top: 10px;
+}
+.primero
+{
+  background-color: #82c3a6;
+}
+.imagen1
+{
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+}
+.segundo {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #d5c75f;
+}
 
+.flex-item {
+    width: 50%;
+    height: auto;
+    margin: 10px;
 }
