@@ -25,13 +25,13 @@ ul
 
 a
 {
-  text-decoration: none;
+  text-decoration: underline;
   color: #FFFFFF;
 }
 
-a:hover
+a.activado
 {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 figcaption
@@ -85,10 +85,7 @@ footer
 {
   transform: translate(20px, -5px);
 }
-.cabecera
-{
 
-}
 .item-menu
 {
   display: inline-block;
@@ -118,15 +115,13 @@ footer
     width: 100%;
     height: auto;
     background-color: #d5c75f;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .flex-item {
     width: 50%;
     height: auto;
-    margin: 10px;
-
 }
 .tercero {
     display: -webkit-flex;
@@ -138,6 +133,7 @@ footer
     width: 50%;
     height: auto;
 }
+
 .imagen2
 {
   display: block;
@@ -180,12 +176,13 @@ footer
     100% {margin-top: 0%;}
 }
 
-@media screen and (max-width: 900px) and (min-width: 700px) {
+@media all (min-width: 900px) {
 
   #contenido
   {
     width: 700px;
     margin: auto;
+    background-color: #c62828;
   }
 
   #titulo
@@ -205,27 +202,54 @@ footer
 
 }
 
-@media screen (max-width: 690px) and (min-width: 500px){
+@media (max-width: 900px){
 
+header
+{
+  height: 180px;
+}
   #contenido
   {
-    width: 500px;
+    width: 100%;
     margin: auto;
   }
 
   #titulo
   {
-    width: 70%;
-    float: left;
+    width: 100%;
+    text-align: center;
     color: #FFFFFF;
     text-shadow: 2px 2px #02010a;
   }
   #menu
   {
-    width: 30%;
-    float: right;
+    width: 100%;
+    text-align: center;
     color: #FFFFFF;
     margin-top: 10px;
+  }
+  .segundo {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+  .flex-item
+  {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .tercero {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+  .flex-item1
+  {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
   }
 
 }
