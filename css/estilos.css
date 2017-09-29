@@ -18,12 +18,29 @@ header
 ul
 {
   list-style-type: none;
+  word-spacing: 10px;
 }
 
 a
 {
-  text-decoration:none;
+  text-decoration: none;
   color: #FFFFFF;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+figcaption
+{
+  display: block;
+  margin: auto;
+}
+figure figcaption
+{
+  text-align: center;
+  text-decoration: underline;
 }
 footer
 {
@@ -38,16 +55,33 @@ footer
 
 #titulo
 {
-  width: 80%;
+  width: 70%;
   float: left;
   color: #FFFFFF;
+  text-shadow: 2px 2px #02010a;
 }
 #menu
 {
-  width: 20%;
+  width: 30%;
   float: right;
   color: #FFFFFF;
   margin-top: 10px;
+}
+#imgRotar
+{
+  transition: all 2s ease;
+}
+#imgRotar:hover
+{
+  transform:rotate(10deg);
+}
+#imgTrasladar
+{
+  transition: all 2s ease;
+}
+#imgTrasladar:hover
+{
+  transform: translate(20px, -5px);
 }
 .item-menu
 {
@@ -56,13 +90,21 @@ footer
 .primero
 {
   background-color: #82c3a6;
+  padding: 20px;
+}
+.imagenInicio
+{
+  display: block;
+  margin: auto;
+  width: 90%;
+  box-shadow: 2px 2px #02010a;
 }
 .imagen1
 {
   display: block;
   margin: auto;
   width: 90%;
-  padding: 20px;
+  box-shadow: 2px 2px #02010a;
 }
 .segundo {
     display: -webkit-flex;
@@ -70,12 +112,15 @@ footer
     width: 100%;
     height: auto;
     background-color: #d5c75f;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .flex-item {
     width: 50%;
     height: auto;
     margin: 10px;
+
 }
 .tercero {
     display: -webkit-flex;
@@ -86,4 +131,39 @@ footer
 .flex-item1 {
     width: 50%;
     height: auto;
+}
+.imagen2
+{
+  display: block;
+  margin: auto;
+  width: 90%;
+  box-shadow: 2px 2px #02010a;
+  -webkit-filter: blur(10px); /* Safari */
+  filter: blur(10px);
+
+}
+.imagen3
+{
+  display: block;
+  margin: auto;
+  width: 90%;
+  box-shadow: 2px 2px #02010a;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.imagen4
+{
+  display: block;
+  margin: auto;
+  width: 90%;
+  box-shadow: 2px 2px #02010a;
+  -webkit-filter: sepia(90%); /* Safari */
+  filter: sepia(90%);
+}
+.imagen5
+{
+  display: block;
+  margin: auto;
+  width: 90%;
+  box-shadow: 2px 2px #02010a;
 }
