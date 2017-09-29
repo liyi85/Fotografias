@@ -19,13 +19,16 @@ ul
 {
   list-style-type: none;
 }
-li
-{
-  display: inline-block;
-}
+
 a
 {
+  text-decoration:none;
   color: #FFFFFF;
+}
+footer
+{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
 }
 #contenido
 {
@@ -45,6 +48,10 @@ a
   float: right;
   color: #FFFFFF;
   margin-top: 10px;
+}
+.item-menu
+{
+  display: inline-block;
 }
 .primero
 {
@@ -69,4 +76,14 @@ a
     width: 50%;
     height: auto;
     margin: 10px;
+}
+.tercero {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.flex-item1 {
+    width: 50%;
+    height: auto;
 }
